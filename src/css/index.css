@@ -1,0 +1,16 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+body{
+  background: #2290ff;
+  background: url('../assets/background.png');
+  overflow: hidden;
+}
+.App{
+  min-height: 100vh;
+  display: grid;
+  
+}

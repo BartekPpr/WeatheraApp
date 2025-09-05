@@ -1,0 +1,78 @@
+*{
+    color: white;
+}
+.forecast-card{
+    border-radius: 10px;
+    background-image: linear-gradient(100deg, #203261, #4203ca);
+    padding: 40px;
+    place-self: center;
+    display: grid;
+    align-items: center;
+}
+.search-bar{
+    gap: 10px;
+    display: flex;
+    align-items: center;
+}
+.search_icon{
+    width: 50px;
+    padding: 15px;
+    overflow: none;
+    background-color: white;
+    border-radius: 50%;
+    cursor: pointer;
+}
+h1{
+    padding-bottom: 30px;
+    color: white;
+}
+input{
+    height: 50px;
+    font-size: large;
+    border-radius: 40px;
+    padding-left: 20px;
+    border: none;
+    color: black;
+}
+.temp{
+    font-size: 70px;
+    margin: 0;
+}
+.weather-data{
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.weather-data .data {
+    display: flex;
+    align-items: center;
+    font-size: 18px; 
+}
+
+.weather-data .data span {
+    display: block;
+    font-size: 18px;
+    line-height: 1.2; 
+}
+
+.weather-data .data img {
+    width: 60px; 
+    height: auto;
+}
+
+.errMessage{
+    color: red;
+    font-size: 2rem;
+    padding-bottom: 20px;
+}
+.location{
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    padding-top: 60px;
+}
+.weather_icon{
+    width: 300px;
+    height: auto;
+}
